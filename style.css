@@ -1,0 +1,126 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(240, 3%, 8%);
+  color: white;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./Images/laptop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: none;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  
+  }
+  .h1a{
+   margin-left: -700px;
+    font-size: 4.5rem;
+    text-shadow: 1.5px 1.5px 4px black;
+  
+ }
+  .lead {
+    margin-left: -845px;
+    font-size: 2.5em;
+  }
+
+  .hr2 {
+    outline: none;
+    border: dotted #0f7979af 6px;
+    border-bottom: none;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+.img-content{
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 280px;
+  width: 230px;
+  border: solid white 10px;
+  border-radius: 25%;
+  float: left;
+}
+
+
+.body2 {
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 20%;
+  font-size: larger;
+  text-align: justify;
+  padding: 0;
+}
+
+.skill {
+  display: grid;
+  margin-top: 0;
+  margin-left: 26.5%;
+  padding: 50px;
+}
+
+.skillset {
+  color: #041c42;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  
+   
+}
+
+.des {
+  margin-top: 20px;
+  text-decoration: underline;
+  font-style:italic;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.project {
+  width: 100%;
+  height: 50vh;
+  background-color: #0e0d0d;
+
+}
+
+h5 {
+  color: white;
+  font-style: italic;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+.btn {
+  background-color: #041c42;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.imgs >img {
+  height: 200px;
+  width: 150px;
+  margin-left: 35px;
+}
